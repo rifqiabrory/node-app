@@ -1,0 +1,33 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: not test specified\\\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifqiabrory/node-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Rifqi Abrory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifqiabrory/node-app/issues"
+  },
+  "homepage": "https://github.com/rifqiabrory/node-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.11"
+  }
+}
